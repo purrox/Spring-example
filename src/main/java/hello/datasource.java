@@ -1,5 +1,5 @@
-Properties env = new Properties();
-	        env.setProperty(Context.INITIAL_CONTEXT_FACTORY, "weblogic.jndi.WLInitialContextFactory");
+		Properties env = new Properties();
+	        env.setProperty(Context.INITIAL_CONTEXT_FACTORY, "");
 	        
 	        if(!providerURL.isEmpty()) {
 	        	env.setProperty(Context.PROVIDER_URL, providerURL);
